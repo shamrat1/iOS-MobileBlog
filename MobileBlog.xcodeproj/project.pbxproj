@@ -12,6 +12,7 @@
 		21779A6C2459E568007F91A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21779A6A2459E568007F91A0 /* Main.storyboard */; };
 		21779A6E2459E578007F91A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21779A6D2459E578007F91A0 /* Assets.xcassets */; };
 		21779A712459E578007F91A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21779A6F2459E578007F91A0 /* LaunchScreen.storyboard */; };
+		21779A79245A10D5007F91A0 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21779A78245A10D5007F91A0 /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21779A6D2459E578007F91A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21779A702459E578007F91A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21779A722459E578007F91A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21779A78245A10D5007F91A0 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				21779A662459E568007F91A0 /* AppDelegate.swift */,
 				21779A682459E568007F91A0 /* ViewController.swift */,
+				21779A78245A10D5007F91A0 /* HomeTableViewCell.swift */,
 				21779A6A2459E568007F91A0 /* Main.storyboard */,
 				21779A6D2459E578007F91A0 /* Assets.xcassets */,
 				21779A6F2459E578007F91A0 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21779A79245A10D5007F91A0 /* HomeTableViewCell.swift in Sources */,
 				21779A692459E568007F91A0 /* ViewController.swift in Sources */,
 				21779A672459E568007F91A0 /* AppDelegate.swift in Sources */,
 			);
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shamrat.MobileBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shamrat.MobileBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
